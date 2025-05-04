@@ -1,0 +1,31 @@
+# Challenge Hospital das Clínicas 
+
+# Objetivo do Projeto
+Desenvolver a interface inicial do projeto com foco em oferecer informações claras e fáceis para os pacientes.
+
+# Estrutura de Pastas e Arquivos:
+
+hc-challenge-html/
+│
+├── index.html
+├── css/
+│ └── style.css
+├── img/
+│ └── logo.png
+├── js/
+│ └── script.js
+└── README.md
+
+
+# Tecnologias Utilizadas
+- HTML5
+- CSS
+- JavaScript
+
+## Integrantes
+- Bruna Caroline Chagas (@brunacch)
+- Isabela Yamauchi Souza (@IsabelaYamauchi2)
+
+## 🔗 Repositório no GitHub
+https://github.com/HC-Challenge-Sprint1/hc-html-interface
+
