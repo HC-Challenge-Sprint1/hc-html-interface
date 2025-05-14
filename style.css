@@ -115,4 +115,84 @@
     color: #5271ff;
   }
 
-  
+  /* Linha do tempo horizontal */
+.coluna-direita {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.passo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 160px;
+  text-align: center;
+}
+
+.numero-circulo {
+  background-color: #2c0083;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+
+
+.dicas {
+  background-color: #fff;
+  padding: 2rem 4rem;
+  margin: 2rem;
+  border-radius: 8px;
+  display: flex;
+  gap: 2rem;
+}
+
+.dicas-titulo {
+  flex: 1;
+  display: flex;
+  align-items: center;      
+  justify-content: center;  
+}
+
+.dicas-titulo h2 {
+  font-size: 2rem;
+  color: #0077cc;
+  text-align: center;
+}
+
+.dicas-conteudo {
+  flex: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.dicas-conteudo li {
+  background-color: #00a9a9;
+  padding: 2rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+  font-size: 1rem;
+  color: #fff;
+}
+
+
+footer {
+  padding: 2rem 4rem 4rem;
+  text-decoration: none;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6a6971;
+}
