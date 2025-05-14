@@ -62,3 +62,27 @@
     padding: 1rem 2rem;
     text-align: left;
   }
+
+  .alerta {
+    background-color: #5271ff;
+    color: rgb(237, 239, 248);
+    padding: 1.4rem 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .alerta h2 {
+    font-size: 1.3rem;
+  }
+  
+  .alerta a {
+    background-color: rgb(237, 239, 248);
+    color: #5271ff;
+    padding: 0.5rem 1rem;
+    margin-left: 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  
