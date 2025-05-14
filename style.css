@@ -85,4 +85,34 @@
     border-radius: 8px;
     font-weight: bold;
   }
+  .passo-a-passo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 6rem;
+    background-color: rgb(246, 248, 254);
+  }
+  
+  .passo-a-passo h2 {
+    font-size: 1.8rem;
+    color: #5271ff;
+    text-align: center;
+    padding: 0.8rem 2rem;
+    border: 1px solid #5271ff;
+    border-radius: 40px;
+    display: inline-block;
+  
+  }
+  
+  .coluna-esquerda {
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  .coluna-esquerda h2 {
+    font-size: 1.7rem;
+    color: #5271ff;
+  }
+
   
