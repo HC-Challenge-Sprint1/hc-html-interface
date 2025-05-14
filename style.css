@@ -19,3 +19,21 @@
     background-color: #fff;
     border-bottom: 2px solid #ccc;
   }
+
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  .logo {
+    height: 60px;
+    width: auto;
+    padding-left: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
