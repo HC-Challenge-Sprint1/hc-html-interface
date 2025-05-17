@@ -47,21 +47,33 @@
     position: relative;
     background-image: url('banner-site.png');
     background-size: cover;
-    background-position: center;
+    background-position: left center;
     height: 400px;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
     color: rgb(228, 228, 228);
     text-shadow: 2px 2px 4px rgba(28, 44, 123, 0.7);
+    padding: 0 5rem;
+  }
+
+  .banner-texto {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 50%;
   }
   
   .banner h1 {
     font-size: 3rem;
-    color: azure;
-    padding: 1rem 2rem;
-    text-align: left;
+    margin: 0;
+  
+  }
+
+  .banner p{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    
   }
 
   .alerta {
@@ -80,10 +92,10 @@
   .alerta a {
     background-color: rgb(237, 239, 248);
     color: #5271ff;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.5rem;
     margin-left: 20px;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 30px;
     font-weight: bold;
   }
   .passo-a-passo {
@@ -152,7 +164,7 @@
   background-color: #fff;
   padding: 2rem 4rem;
   margin: 2rem;
-  border-radius: 8px;
+  border-radius: 12px;
   display: flex;
   gap: 2rem;
 }
@@ -188,6 +200,28 @@
   font-size: 1rem;
   color: #fff;
 }
+
+.dicas-titulo {
+  flex: 1;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;      
+  justify-content: center;  
+}
+
+.icone-titulo {
+  width: 40px;   
+  height: 40px;
+  margin-bottom: 0.5rem; 
+}
+
+
+.icone-li {
+  margin-right: 0.5rem;
+  width: 40px;
+  height: 40px;
+}
+
 
 
 footer {
