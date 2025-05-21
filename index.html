@@ -32,38 +32,24 @@
         <a href="consultas.html">Clique aqui</a>
     </section>
 
-    <section class = "passo-a-passo">
-        <div class="coluna-esquerda">
+    <section class="passo-container">
+  
+        <div class="passo-img">
+            <img src="consulta.jpg" alt="Consulta online" class="imagem-consulta">
+        </div>
+
+        <div class="passo-texto">
             <h2>Saiba como ingressar na sua consulta:</h2>
+    
+        <div class="passo-slider">
+            <p id="passo-texto">1. Acesse o site com seu ID de paciente.</p>
+        <div class="passo-controles">
+            <button onclick="passoAnterior()">←</button>
+            <button onclick="proximoPasso()">→</button>
         </div>
-        <div class="coluna-direita">
-            <div class="passo">
-                <div class="numero-circulo">1</div>
-                <p><b>Passo 1: </b><br>Acesse o Portal do Paciente HC pelo site ou aplicativo.</p>
         </div>
-        <div class="passo">
-            <div class="numero-circulo">2</div>
-            <p><b>Passo 2: </b><br>Clique em "Cadastrar Senha", digite seu CPF e localize seu cadastro.</p>
         </div>
-        <div class="passo">
-            <div class="numero-circulo">3</div>
-            <p><b>Passo 3: </b><br>Preencha os dados de contato, confirme suas informações e crie uma senha.</p>
-        </div>
-        <div class="passo">
-            <div class="numero-circulo">4</div>
-            <p><b>Passo 4: </b><br>Faça login com o CPF e a senha cadastrada.</p>
-        </div>
-        <div class="passo">
-            <div class="numero-circulo">5</div>
-            <p><b>Passo 5: </b><br>No menu, selecione "Teleconsultas" e aceite o termo de autorização.</p>
-        </div>
-        <div class="passo">
-            <div class="numero-circulo">6</div>
-            <p><b>Passo 6: </b><br>Escolha a consulta, habilite a câmera e o microfone, e aguarde o profissional entrar.</p>
-        </div>
-    </div>
-</section>
-      
+    </section>
 
     <section class="dicas">
         <div class="dicas-titulo">
@@ -79,9 +65,32 @@
     </section>
 
 
-    <footer>
-        <b>Hospital das Clínicas -</b> Endereço: R. Dr. Ovídio Pires de Campos, 225 - Cerqueira César, São Paulo  SP, 05403-010  |  Telefone: (11) 2661-0000
-    </footer>
+<footer>
+  <div class="footer-container">
+    
+    <div class="footer-left">
+      <img src="hconsulta_branco.png" alt="Logo HConsulta" class="footer-logo">
+      <p class="footer-endereco">
+        <b>Hospital das Clínicas</b><br>
+        R. Dr. Ovídio Pires de Campos, 225<br>
+        Cerqueira César, São Paulo - SP<br>
+        05403-010
+      </p>
+      <div class="footer-social">
+        <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+        <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+        <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+      </div>
+    </div>
+
+    <div class="footer-right">
+      <h4>Contato</h4>
+      <p>Telefone: (11) 2661-0000</p>
+      <p>Email: contato@hcsp.br</p>
+    </div>
+  </div>
+</footer>
+
 
 </body>
 </html>
