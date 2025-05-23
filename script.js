@@ -1,17 +1,19 @@
 const passos = [
-  "Acesse o site com seu ID de paciente.",
-  "Confirme seus dados e a especialidade médica.",
-  "Escolha o melhor dia e horário disponível.",
-  "Clique em 'Confirmar' e aguarde o e-mail com o link da consulta.",
-  "No dia e hora marcados, acesse o link e inicie sua consulta."
+  "Acesse o <strong>aplicativo do HC</strong>.",
+  "Faça seu login pelo <strong>gov.br</strong> (insira seu CPF e senha).",
+  "No menu inferior, clique em <strong>Menu</strong> e selecione o painel <strong>Teleconsulta</strong>.",
+  "Se você tiver algum agendamento, ele aprecerá na lista de <strong>Minhas Agendas</strong>.",
+  "Selecione a consulta. Em seguida aparecerá os Termos de Uso, selecione <strong>Sim</strong>.",
+  "Em seguida, você entrará na tela de vídeo. Mantenha o microfone e câmera ligados. Boa consulta!"
 ];
 
 const imagens = [
-    "imagem1.jpg",
-    "imagem2.jpg",
-    "imagem3.jpg",
-    "imagem4.jpg",
-    "imagem5.jpg"
+    "passo-1.png",
+    "passo-2.png",
+    "passo-3.png",
+    "passo-4.png",
+    "passo-5.png",
+    "passo-6.png"
   ];
 
 let indice = 0;

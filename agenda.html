@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="index.html">
+                <img src="hconsulta.png" alt="Logo HConsulta" class="logo">
+            </a>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href = "index.html">Página Inicial</a></li>
+                <li><a href = "faq.html">FAQ</a></li>
+                <li><a href = "contato.html">Contato</a></li>
+                <li><a href = "integrantes.html">Quem somos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 class="consulta-titulo">Deseja cancelar ou confirmar sua consulta?</h1>
+
+
+    <section class="consulta">
+
+    <form id="form-cpf" class="reagendamento-form">
+        <label for="cpf">Digite seu CPF:</label>
+        <input type="text" id="cpf" name="cpf" required placeholder="000.000.000-00">
+        <button type="submit">Buscar Consulta</button>
+    </form>
+
+    <div id="consulta-info" class="consulta-info" style="display: none;">
+        <p><strong>Consulta encontrada:</strong></p>
+        <p id="data-consulta"></p>
+
+        <form id="form-opcao" class="reagendamento-form">
+        <label for="opcao">Escolha uma opção:</label>
+        <select id="opcao" name="opcao" required>
+            <option value="">Selecione</option>
+            <option value="cancelar">Cancelar</option>
+            <option value="confirmar">Confirmar</option>
+        </select>
+        <button type="submit">Enviar</button>
+        </form>
+    </div>
+    </section>
+
+
+
+  <script src="agenda.js"></script>
+</body>
+</html>
