@@ -8,12 +8,12 @@ const passos = [
 ];
 
 const imagens = [
-    "passo-1.png",
-    "passo-2.png",
-    "passo-3.png",
-    "passo-4.png",
-    "passo-5.png",
-    "passo-6.png"
+    "../imagens/passo-1.png",
+    "../imagens/passo-2.png",
+    "../imagens/passo-3.png",
+    "../imagens/passo-4.png",
+    "../imagens/passo-5.png",
+    "../imagens/passo-6.png"
   ];
 
 let indice = 0;
@@ -36,3 +36,10 @@ function passoAnterior() {
 }
 
 window.onload = atualizarPasso;
+
+
+function toggleMenu() {
+    const menu = document.querySelector('nav ul');
+    menu.classList.toggle('active');
+}
+

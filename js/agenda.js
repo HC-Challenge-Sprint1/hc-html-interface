@@ -5,7 +5,7 @@ const dataConsulta = document.getElementById('data-consulta');
 formCpf.addEventListener('submit', function(e) {
   e.preventDefault();
 
-  // Gerar data aleatória
+  
   const dias = Math.floor(Math.random() * 30) + 1;
   const meses = Math.floor(Math.random() * 12) + 1;
   const anos = 2025;

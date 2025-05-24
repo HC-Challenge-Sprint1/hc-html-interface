@@ -5,17 +5,25 @@ Desenvolver a interface inicial do projeto com foco em oferecer informações cl
 
 # Estrutura de Pastas e Arquivos:
 
-hc-challenge-html/
-│
+HC_CHALLENGE_SPRINT1/
 ├── index.html
 ├── css/
 │ └── style.css
-├── img/
-│ └── logo.png
+├── imagens/
+│ ├── banner-site.png
+│ ├── hconsulta.png
+│ └── demais arquivos de imagens
 ├── js/
-│ └── script.js
+│ ├── script.js
+│ ├── agenda.js
+│ └── faq.js
+├── paginas/
+│ ├── agenda.html
+│ ├── consultas.html
+│ ├── contato.html
+│ ├── faq.html
+│ └── integrantes.html
 └── README.md
-
 
 # Tecnologias Utilizadas
 - HTML5
@@ -23,8 +31,8 @@ hc-challenge-html/
 - JavaScript
 
 ## Integrantes
-- Bruna Caroline Chagas (@brunacch)
-- Isabela Yamauchi Souza (@IsabelaYamauchi2)
+- Bruna Caroline Chagas (@brunacch - https://github.com/brunacch)  
+- Isabela Yamauchi Souza (@IsabelaYamauchi2 - https://github.com/IsabelaYamauchi2)
 
 ## 🔗 Repositório no GitHub
 https://github.com/HC-Challenge-Sprint1/hc-html-interface
