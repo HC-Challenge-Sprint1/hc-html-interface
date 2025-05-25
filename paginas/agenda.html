@@ -27,35 +27,60 @@
         </nav>
     </header>
 
-    <h1 class="consulta-titulo">Deseja cancelar ou confirmar sua consulta?</h1>
+    <main>
+        <h1 class="consulta-titulo">Deseja cancelar ou confirmar sua consulta?</h1>
+        
+        <article class="consulta">
 
+            <form id="form-cpf" class="reagendamento-form">
+                <label for="cpf">Digite seu CPF:</label>
+                <input type="text" id="cpf" name="cpf" required placeholder="000.000.000-00">
+                <button type="submit">Buscar Consulta</button>
+            </form>
 
-    <section class="consulta">
+            <section id="consulta-info" class="consulta-info" style="display: none;">
+                <p><strong>Consulta encontrada:</strong></p>
+                <p id="data-consulta"></p>
 
-    <form id="form-cpf" class="reagendamento-form">
-        <label for="cpf">Digite seu CPF:</label>
-        <input type="text" id="cpf" name="cpf" required placeholder="000.000.000-00">
-        <button type="submit">Buscar Consulta</button>
-    </form>
+                <form id="form-opcao" class="reagendamento-form">
+                <label for="opcao">Escolha uma opção:</label>
+                <select id="opcao" name="opcao" required>
+                    <option value="">Selecione</option>
+                    <option value="cancelar">Cancelar</option>
+                    <option value="confirmar">Confirmar</option>
+                </select>
+                <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </article>
+    </main>
 
-    <div id="consulta-info" class="consulta-info" style="display: none;">
-        <p><strong>Consulta encontrada:</strong></p>
-        <p id="data-consulta"></p>
+    <footer>
+    <div class="footer-container">
+        
+        <div class="footer-left">
+        <img src="../imagens/hconsulta_branco.png" alt="Logo HConsulta" class="footer-logo">
+        <p class="footer-endereco">
+            <b>Hospital das Clínicas</b><br>
+            R. Dr. Ovídio Pires de Campos, 225<br>
+            Cerqueira César, São Paulo - SP<br>
+            05403-010
+        </p>
+        <div class="footer-social">
+            <a href="#"><img src="../imagens/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="../imagens/linkedin.png" alt="LinkedIn"></a>
+            <a href="#"><img src="../imagens/email.png" alt="E-mail"></a>
+        </div>
+        </div>
 
-        <form id="form-opcao" class="reagendamento-form">
-        <label for="opcao">Escolha uma opção:</label>
-        <select id="opcao" name="opcao" required>
-            <option value="">Selecione</option>
-            <option value="cancelar">Cancelar</option>
-            <option value="confirmar">Confirmar</option>
-        </select>
-        <button type="submit">Enviar</button>
-        </form>
+        <div class="footer-right">
+        <h4>Contato</h4>
+        <p>Telefone: (11) 2661-0000</p>
+        <p>Email: contato@hcsp.br</p>
+        </div>
     </div>
-    </section>
+    </footer>
 
-
-
-  <script src="../js/agenda.js"></script>
+<script src="../js/agenda.js"></script>
 </body>
 </html>

@@ -19,7 +19,6 @@ HC_CHALLENGE_SPRINT1/
 │ └── faq.js
 ├── paginas/
 │ ├── agenda.html
-│ ├── consultas.html
 │ ├── contato.html
 │ ├── faq.html
 │ └── integrantes.html

@@ -27,36 +27,38 @@
         </nav>
     </header>
 
-    <div class = "banner">
+    <aside class = "banner">
         <div class = "banner-texto">
             <h1>Sua consulta online no HC</h1> 
-            <p>Veja como participar da teleconsulta, confirmar ou tirar dúvidas.</p>
+            <p>Veja como participar da teleconsulta ou tirar dúvidas.</p>
         </div>
-    </div>
-    
-    <section class="alerta">
-        <h2>Precisa confirmar ou cancelar sua consulta?</h2>
-        <a href="paginas/agenda.html">Clique aqui</a>
-    </section>
+    </aside>
 
-    <section id="passo-container">
-        <div class="passo-img">
-            <img id="imagem-passo" src="consulta1.jpg" alt="Consulta online" class="imagem-consulta">
+    <main>
+        <section class="alerta">
+            <h2>Precisa confirmar ou cancelar sua consulta?</h2>
+            <a href="paginas/agenda.html">Clique aqui</a>
+        </section>
+
+        <article id="passo-container">
+            <div class="passo-img">
+                <img id="imagem-passo" src="consulta1.jpg" alt="Consulta online" class="imagem-consulta">
+            </div>
+
+            <div class="passo-texto">
+                <h2>Saiba como ingressar na sua consulta:</h2>
+                <p id="texto-passo">
+                    <span class="passo-negrito">Passo 1:</span><br>Acesse o Portal do Paciente HC pelo site ou aplicativo.</p>
+
+            <div class="passo-controles">
+                <button onclick="passoAnterior()">←</button>
+                <button onclick="proximoPasso()">→</button>
+            </div>
         </div>
-
-        <div class="passo-texto">
-            <h2>Saiba como ingressar na sua consulta:</h2>
-            <p id="texto-passo"><span class="passo-negrito">Passo 1:</span><br>Acesse o Portal do Paciente HC pelo site ou aplicativo.</p>
-
-        <div class="passo-controles">
-            <button onclick="passoAnterior()">←</button>
-            <button onclick="proximoPasso()">→</button>
-        </div>
-        </div>
-    </section>
+        </article>
 
 
-    <section class="dicas">
+    <article class="dicas">
         <div class="dicas-titulo">
             <img src="imagens/icone-lampada.png" alt="Dicas" class="icone-titulo">
             <h2>Dicas para a consulta</h2>
@@ -67,7 +69,8 @@
                 <li><img src="imagens/icone-anotacao.png" alt="Anotações" class="icone-li"> Anote todas as perguntas que deseja fazer ao médico.</li>
                 <li><img src="imagens/icone-calendario.png" alt="Reagendamento" class="icone-li"> Caso não consiga comparecer à consulta, reagende ou cancele.</li>
             </ul>
-    </section>
+    </article>
+    </main>
 
 
     <footer>
@@ -82,9 +85,9 @@
                 05403-010
                 </p>
             <div class="footer-social">
-                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
-                <a href="#"><img src="instagram-icon.png" alt="Linkedin"></a>
-                <a href="#"><img src="twitter-icon.png" alt="E-mail"></a>
+                <a href="#"><img src="imagens/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="imagens/linkedin.png" alt="Linkedin"></a>
+                <a href="#"><img src="imagens/email.png" alt="E-mail"></a>
             </div>
             </div>
 

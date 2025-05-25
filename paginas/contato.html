@@ -27,33 +27,34 @@
         </nav>
     </header>
 
+    <main>
+        <h2 class="contato-titulo">Entre em contato</h2>
 
-    <h2 class="contato-titulo">Entre em contato</h2>
+        <article class="contato">
+            <p>Está com dúvidas ou dificuldades para acessar sua teleconsulta? Preencha o formulário abaixo ou entre em contato pelo telefone do HC.</p>
 
-    <section class="contato">
-        <p>Está com dúvidas ou dificuldades para acessar sua teleconsulta? Preencha o formulário abaixo ou entre em contato pelo telefone do HC.</p>
+            <form class="formulario-contato">
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome" required>
 
-        <form class="formulario-contato">
-            <label for="nome">Nome completo:</label>
-            <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail para contato:</label>
+                <input type="email" id="email" name="email" required>
 
-            <label for="email">E-mail para contato:</label>
-            <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Descreva sua dúvida ou dificuldade aqui:" required></textarea>
 
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Descreva sua dúvida ou dificuldade aqui:" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
 
-            <button type="submit">Enviar</button>
-         </form>
-
-        <div class="dados-contato">
-            <ul>
-                <li><b>Telefone:</b> (11) 2661-0000</li>
-                <li><b>E-mail:</b> atendimento@hcsp.org.br</li>
-                <li><b>Horário de atendimento:</b> Todos os dias, das 8h às 18h</li>
-            </ul>
-        </div>
-    </section>
+            <section class="dados-contato">
+                <ul>
+                    <li><b>Telefone:</b> (11) 2661-0000</li>
+                    <li><b>E-mail:</b> atendimento@hcsp.org.br</li>
+                    <li><b>Horário de atendimento:</b> Todos os dias, das 8h às 18h</li>
+                </ul>
+            </section>
+        </article>
+    </main>
 
  <footer>
     <div class="footer-container">
@@ -67,9 +68,9 @@
             05403-010
         </p>
         <div class="footer-social">
-            <a href="#"><img src="../imagens/" alt="Facebook"></a>
-            <a href="#"><img src="../imagens/" alt="Instagram"></a>
-            <a href="#"><img src="../imagens/" alt="Twitter"></a>
+            <a href="#"><img src="../imagens/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="../imagens/linkedin.png" alt="LinkedIn"></a>
+            <a href="#"><img src="../imagens/email.png" alt="E-mail"></a>
         </div>
         </div>
 

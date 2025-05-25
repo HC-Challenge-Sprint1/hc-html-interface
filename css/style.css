@@ -80,7 +80,6 @@
   }
 
 
-
   .alerta {
     background-color: #5271ff;
     color: rgb(237, 239, 248);
@@ -657,23 +656,22 @@ nav ul.active {
     }
 
         .consulta {
-        padding: 2rem 1rem; /* menos espaço interno */
-        max-width: 90%; /* mais estreita */
-        margin: 2rem auto; /* menos margem superior */
+        padding: 2rem 1rem; 
+        max-width: 90%; 
+        margin: 2rem auto; 
     }
 
     .consulta-titulo {
-        font-size: 1.5rem; /* título menor */
+        font-size: 1.5rem; 
         margin-top: 2rem;
         margin-bottom: 1rem;
     }
 
     .reagendamento-titulo {
-        font-size: 1.5rem; /* título menor */
+        font-size: 1.5rem;
         margin-top: 2rem;
         margin-bottom: 1rem;
     }
-
 
 }
 

@@ -2,7 +2,7 @@ const passos = [
   "Acesse o <strong>aplicativo do HC</strong>.",
   "Faça seu login pelo <strong>gov.br</strong> (insira seu CPF e senha).",
   "No menu inferior, clique em <strong>Menu</strong> e selecione o painel <strong>Teleconsulta</strong>.",
-  "Se você tiver algum agendamento, ele aprecerá na lista de <strong>Minhas Agendas</strong>.",
+  "Se você tiver algum agendamento, ele aparecerá na lista de <strong>Minhas Agendas</strong>.",
   "Selecione a consulta. Em seguida aparecerá os Termos de Uso, selecione <strong>Sim</strong>.",
   "Em seguida, você entrará na tela de vídeo. Mantenha o microfone e câmera ligados. Boa consulta!"
 ];
